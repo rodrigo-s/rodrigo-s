@@ -27,9 +27,10 @@ Fique à vontade para reescrever as falas. Só tente manter **a palavra destacad
 ## Arquivos de áudio
 
 - `parcelado_ep01.mp4`: vídeo com efeitos e ambiência já mixados
-- `audio/sfx.wav`: só os efeitos (pops, carimbos, prensa, trovão, coração…)
-- `audio/ambiencia.wav`: só a chuva e o drone grave
-- `audio/mix.wav`: os dois juntos
+- `audio/sfx.flac`: só os efeitos (pops, carimbos, prensa, trovão, coração…)
+- `audio/ambiencia.flac`: só a chuva e o drone grave
+
+Com as duas trilhas separadas, você pode baixar só a ambiência embaixo da sua voz e manter os efeitos fortes.
 
 O som está em cerca de **−22 LUFS**, de propósito abaixo do padrão de Reels/TikTok (cerca de −14), para sobrar espaço para a sua voz.
 Depois de gravar, abaixe os efeitos uns 3 a 6 dB nos trechos de fala (ducking) e normalize o total para −14 LUFS.

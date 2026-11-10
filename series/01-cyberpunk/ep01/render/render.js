@@ -24,7 +24,7 @@ const path = require('path');
   } else {
     const t0 = +(rest[0] ?? 0), t1 = +(rest[1] ?? tl.duration), fps = tl.fps;
     const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-',
-      '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', out], { stdio: ['pipe', 'inherit', 'inherit'] });
+      '-c:v', 'libx264', '-preset', 'medium', '-crf', '22', '-pix_fmt', 'yuv420p', out], { stdio: ['pipe', 'inherit', 'inherit'] });
     const n = Math.round((t1 - t0) * fps); const st = Date.now();
     for (let i = 0; i < n; i++) {
       const buf = await grab(t0 + i / fps);

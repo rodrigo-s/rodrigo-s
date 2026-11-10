@@ -731,8 +731,8 @@ S.retrovisor = (t, lt, d) => {
   for (let i = 0; i < 6; i++) { const pp = ((lt * .9 + i / 6) % 1); const yy = my - 60 + pp * 360; X.fillStyle = rgba(C.ambar, .6); X.fillRect(mx - 4 - pp * 6, yy, 8 + pp * 12, 14 + pp * 30); }
   for (let i = 0; i < 4; i++) { const pp = ((lt * .6 + i / 4) % 1); X.fillStyle = rgba(C.mag, .5); X.beginPath(); X.arc(mx - 60 - pp * 400, my - 80 - pp * 160, 6 + pp * 18, 0, 7); X.fill(); X.beginPath(); X.fillStyle = rgba(C.ciano, .5); X.arc(mx + 60 + pp * 400, my - 80 - pp * 160, 6 + pp * 18, 0, 7); X.fill(); }
   // perseguidor
-  const ap = clamp((t - 85.0) / 5.5); const ps = lerp(.15, 1.0, E.inout(ap));
-  X.save(); X.translate(mx + 40, my + 20); X.scale(ps, ps);
+  const ap = clamp((t - 85.0) / 5.5); const ps = lerp(.15, .72, E.inout(ap));
+  X.save(); X.translate(mx + 30, my + 150); X.scale(ps, ps);
   const hl = X.createRadialGradient(0, 120, 5, 0, 120, 260); hl.addColorStop(0, 'rgba(255,255,240,.95)'); hl.addColorStop(1, 'rgba(255,255,240,0)'); X.fillStyle = hl; X.beginPath(); X.arc(0, 120, 260, 0, 7); X.fill();
   if (t >= 87.2) { const ma = clamp((t - 87.2) / .4);
     X.fillStyle = '#05040a'; X.beginPath(); X.moveTo(-170, 60); X.quadraticCurveTo(-190, -160, -90, -230); X.lineTo(90, -230); X.quadraticCurveTo(190, -160, 170, 60); X.fill();
