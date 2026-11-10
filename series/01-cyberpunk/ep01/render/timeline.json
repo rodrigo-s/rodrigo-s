@@ -1,0 +1,868 @@
+{
+ "fps": 30,
+ "duration": 104,
+ "scenes": [
+  {
+   "id": "abertura",
+   "start": 0.0,
+   "end": 6.5
+  },
+  {
+   "id": "braco",
+   "start": 6.5,
+   "end": 11.5
+  },
+  {
+   "id": "tese",
+   "start": 11.5,
+   "end": 14.5
+  },
+  {
+   "id": "fabrica",
+   "start": 14.5,
+   "end": 21.0
+  },
+  {
+   "id": "pieta",
+   "start": 21.0,
+   "end": 26.5
+  },
+  {
+   "id": "parcelas",
+   "start": 26.5,
+   "end": 33.0
+  },
+  {
+   "id": "corrida",
+   "start": 33.0,
+   "end": 37.0
+  },
+  {
+   "id": "taxa",
+   "start": 37.0,
+   "end": 47.5
+  },
+  {
+   "id": "nota",
+   "start": 47.5,
+   "end": 60.0
+  },
+  {
+   "id": "kitnet",
+   "start": 60.0,
+   "end": 66.0
+  },
+  {
+   "id": "pedido",
+   "start": 66.0,
+   "end": 71.0
+  },
+  {
+   "id": "beco",
+   "start": 71.0,
+   "end": 84.0
+  },
+  {
+   "id": "retrovisor",
+   "start": 84.0,
+   "end": 90.5
+  },
+  {
+   "id": "cta",
+   "start": 90.5,
+   "end": 101.0
+  },
+  {
+   "id": "outro",
+   "start": 101.0,
+   "end": 104.0
+  }
+ ],
+ "texts": [
+  {
+   "t": 0.3,
+   "kind": "label",
+   "text": "SÃO PAULO · 2087",
+   "y": 560
+  },
+  {
+   "t": 2.2,
+   "kind": "title",
+   "text": "FALTAM 6 DIAS",
+   "y": 700
+  },
+  {
+   "t": 2.8,
+   "kind": "title2",
+   "text": "PRO BANCO DESLIGAR\nO BRAÇO DELE.",
+   "y": 800
+  },
+  {
+   "t": 4.6,
+   "kind": "pill",
+   "text": "PIETÀ · BLOQUEIO EM 6 DIAS",
+   "y": 1010
+  },
+  {
+   "t": 7.0,
+   "kind": "chip",
+   "text": "51 ANOS",
+   "y": 1180,
+   "x": 80,
+   "align": "left"
+  },
+  {
+   "t": 8.0,
+   "kind": "chip",
+   "text": "14 H DE MOTO POR DIA",
+   "y": 1260,
+   "x": 80,
+   "align": "left"
+  },
+  {
+   "t": 9.4,
+   "kind": "title2",
+   "text": "UM BRAÇO QUE\nNÃO É DELE.",
+   "y": 470
+  },
+  {
+   "t": 11.8,
+   "kind": "title",
+   "text": "AQUI, ATÉ O CORPO",
+   "y": 900
+  },
+  {
+   "t": 12.6,
+   "kind": "title2",
+   "text": "É PARCELADO.",
+   "y": 1010,
+   "size": 110
+  },
+  {
+   "t": 14.8,
+   "kind": "tag",
+   "text": "PROBLEMA 1 · O BRAÇO",
+   "y": 420
+  },
+  {
+   "t": 15.4,
+   "kind": "label",
+   "text": "SÃO BERNARDO · 2071",
+   "y": 500
+  },
+  {
+   "t": 17.4,
+   "kind": "stamp",
+   "text": "A PRENSA",
+   "y": 1250,
+   "color": "#FF3B30"
+  },
+  {
+   "t": 18.8,
+   "kind": "chip",
+   "text": "ÚLTIMO ANO ANTES DAS MÁQUINAS",
+   "y": 1420
+  },
+  {
+   "t": 21.5,
+   "kind": "gold",
+   "text": "BANCO PIETÀ",
+   "y": 1120
+  },
+  {
+   "t": 22.3,
+   "kind": "small",
+   "text": "“porque todo corpo merece um futuro”",
+   "y": 1195
+  },
+  {
+   "t": 23.2,
+   "kind": "chip",
+   "text": "72 PARCELAS",
+   "y": 1330
+  },
+  {
+   "t": 24.4,
+   "kind": "pill",
+   "text": "FALTAM 41",
+   "y": 1420
+  },
+  {
+   "t": 26.6,
+   "kind": "label",
+   "text": "PIETÀ CORPO · CONTRATO 0049-7",
+   "y": 450
+  },
+  {
+   "t": 28.6,
+   "kind": "pill",
+   "text": "3 ATRASADAS",
+   "y": 1500
+  },
+  {
+   "t": 30.3,
+   "kind": "small",
+   "text": "na 4ª: desligamento à distância",
+   "y": 1580
+  },
+  {
+   "t": 31.2,
+   "kind": "stamp",
+   "text": "BLOQUEIO REMOTO",
+   "y": 980,
+   "color": "#FF3B30",
+   "size": 96
+  },
+  {
+   "t": 33.3,
+   "kind": "tag",
+   "text": "PROBLEMA 2 · A TAXA",
+   "y": 420
+  },
+  {
+   "t": 33.7,
+   "kind": "title",
+   "text": "ENTÃO ELE TRABALHA.",
+   "y": 640
+  },
+  {
+   "t": 41.3,
+   "kind": "chip",
+   "text": "CHOVEU → PREÇO SOBE",
+   "y": 1080
+  },
+  {
+   "t": 42.6,
+   "kind": "chip",
+   "text": "+ R$ 4,00 · QUEM GANHA: O APP",
+   "y": 1160
+  },
+  {
+   "t": 45.0,
+   "kind": "title",
+   "text": "EM SÃO PAULO,",
+   "y": 1330
+  },
+  {
+   "t": 45.5,
+   "kind": "title2",
+   "text": "CHOVE SEMPRE.",
+   "y": 1430
+  },
+  {
+   "t": 47.8,
+   "kind": "tag",
+   "text": "PROBLEMA 3 · A NOTA",
+   "y": 420
+  },
+  {
+   "t": 51.5,
+   "kind": "title",
+   "text": "ABAIXO DE 4,70:",
+   "y": 920,
+   "size": 76
+  },
+  {
+   "t": 51.9,
+   "kind": "redtitle",
+   "text": "DESATIVAÇÃO AUTOMÁTICA",
+   "y": 1000,
+   "size": 64
+  },
+  {
+   "t": 54.0,
+   "kind": "chip",
+   "text": "SEM AVISO",
+   "y": 1100,
+   "check": "x"
+  },
+  {
+   "t": 54.7,
+   "kind": "chip",
+   "text": "SEM RECURSO",
+   "y": 1175,
+   "check": "x"
+  },
+  {
+   "t": 55.4,
+   "kind": "chip",
+   "text": "SEM NINGUÉM PRA RECLAMAR",
+   "y": 1250,
+   "check": "x"
+  },
+  {
+   "t": 58.3,
+   "kind": "stamp",
+   "text": "ACABOU",
+   "y": 1600,
+   "color": "#FF3B30",
+   "size": 120
+  },
+  {
+   "t": 60.5,
+   "kind": "chip",
+   "text": "CAIO · 9 ANOS",
+   "y": 470
+  },
+  {
+   "t": 62.3,
+   "kind": "quote",
+   "text": "“O BRAÇO MAIS FORTE\nDO MUNDO.”",
+   "y": 1440
+  },
+  {
+   "t": 68.5,
+   "kind": "pill",
+   "text": "NÃO CONSTA NO SISTEMA",
+   "y": 1230
+  },
+  {
+   "t": 71.4,
+   "kind": "chip",
+   "text": "SEM APP",
+   "y": 430,
+   "x": 70,
+   "align": "left",
+   "check": "x"
+  },
+  {
+   "t": 72.1,
+   "kind": "chip",
+   "text": "SEM ROTA",
+   "y": 505,
+   "x": 70,
+   "align": "left",
+   "check": "x"
+  },
+  {
+   "t": 72.8,
+   "kind": "chip",
+   "text": "SEM CLIENTE",
+   "y": 580,
+   "x": 70,
+   "align": "left",
+   "check": "x"
+  },
+  {
+   "t": 74.0,
+   "kind": "label",
+   "text": "◉ LIBERDADE BAIXA",
+   "y": 680,
+   "x": 70,
+   "align": "left"
+  },
+  {
+   "t": 75.6,
+   "kind": "chip",
+   "text": "PACOTE LACRADO",
+   "y": 1530
+  },
+  {
+   "t": 77.0,
+   "kind": "money",
+   "text": "R$ 5.000",
+   "y": 900
+  },
+  {
+   "t": 77.9,
+   "kind": "small",
+   "text": "em dinheiro de papel",
+   "y": 1020
+  },
+  {
+   "t": 79.6,
+   "kind": "small",
+   "text": "(ninguém usa há 20 anos)",
+   "y": 1075,
+   "alpha": 0.6
+  },
+  {
+   "t": 82.0,
+   "kind": "stamp",
+   "text": "NÃO ABRE",
+   "y": 1250,
+   "color": "#FF3B30",
+   "size": 130
+  },
+  {
+   "t": 88.8,
+   "kind": "stamp",
+   "text": "RECUPERADOR",
+   "y": 1530,
+   "color": "#FF3B30",
+   "size": 100
+  },
+  {
+   "t": 91.0,
+   "kind": "title",
+   "text": "E AGORA?",
+   "y": 700,
+   "size": 120
+  },
+  {
+   "t": 92.4,
+   "kind": "small",
+   "text": "ele abre o pacote… ou entrega e pega o dinheiro?",
+   "y": 790
+  },
+  {
+   "t": 95.5,
+   "kind": "label",
+   "text": "COMENTA UMA PALAVRA",
+   "y": 960,
+   "color": "#FFB020"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "thunder",
+   "gain": 0.7
+  },
+  {
+   "t": 0.3,
+   "type": "blip"
+  },
+  {
+   "t": 1.8,
+   "type": "hud_on"
+  },
+  {
+   "t": 2.2,
+   "type": "pop"
+  },
+  {
+   "t": 2.8,
+   "type": "pop",
+   "pitch": 0.8
+  },
+  {
+   "t": 4.6,
+   "type": "alarm_blip"
+  },
+  {
+   "t": 6.5,
+   "type": "whoosh"
+  },
+  {
+   "t": 7.0,
+   "type": "pop"
+  },
+  {
+   "t": 8.0,
+   "type": "pop"
+  },
+  {
+   "t": 9.4,
+   "type": "led_alarm"
+  },
+  {
+   "t": 11.4,
+   "type": "riser",
+   "dur": 0.5
+  },
+  {
+   "t": 11.8,
+   "type": "pop"
+  },
+  {
+   "t": 12.6,
+   "type": "deep_hit"
+  },
+  {
+   "t": 14.5,
+   "type": "factory_alarm",
+   "dur": 6.0
+  },
+  {
+   "t": 14.8,
+   "type": "pop"
+  },
+  {
+   "t": 15.4,
+   "type": "blip"
+  },
+  {
+   "t": 16.6,
+   "type": "press_slam"
+  },
+  {
+   "t": 17.4,
+   "type": "stamp"
+  },
+  {
+   "t": 18.8,
+   "type": "pop"
+  },
+  {
+   "t": 21.0,
+   "type": "whoosh"
+  },
+  {
+   "t": 21.0,
+   "type": "choir_pad",
+   "dur": 5.5
+  },
+  {
+   "t": 21.5,
+   "type": "bell"
+  },
+  {
+   "t": 23.2,
+   "type": "pop"
+  },
+  {
+   "t": 24.4,
+   "type": "alarm_blip"
+  },
+  {
+   "t": 26.5,
+   "type": "whoosh"
+  },
+  {
+   "t": 26.8,
+   "type": "ticks",
+   "n": 31,
+   "dur": 1.1
+  },
+  {
+   "t": 28.6,
+   "type": "beep"
+  },
+  {
+   "t": 29.0,
+   "type": "beep"
+  },
+  {
+   "t": 29.4,
+   "type": "beep"
+  },
+  {
+   "t": 30.4,
+   "type": "led_alarm"
+  },
+  {
+   "t": 31.2,
+   "type": "stamp"
+  },
+  {
+   "t": 33.0,
+   "type": "bike_pass"
+  },
+  {
+   "t": 33.3,
+   "type": "pop"
+  },
+  {
+   "t": 33.7,
+   "type": "pop"
+  },
+  {
+   "t": 37.0,
+   "type": "whoosh"
+  },
+  {
+   "t": 37.3,
+   "type": "cash"
+  },
+  {
+   "t": 39.0,
+   "type": "slide"
+  },
+  {
+   "t": 39.9,
+   "type": "coin_drop"
+  },
+  {
+   "t": 41.3,
+   "type": "pop"
+  },
+  {
+   "t": 42.6,
+   "type": "pop"
+  },
+  {
+   "t": 44.6,
+   "type": "thunder",
+   "gain": 1.0
+  },
+  {
+   "t": 45.0,
+   "type": "pop"
+  },
+  {
+   "t": 45.5,
+   "type": "pop",
+   "pitch": 0.8
+  },
+  {
+   "t": 47.5,
+   "type": "whoosh"
+  },
+  {
+   "t": 47.8,
+   "type": "pop"
+  },
+  {
+   "t": 49.0,
+   "type": "hud_on"
+  },
+  {
+   "t": 51.5,
+   "type": "pop"
+  },
+  {
+   "t": 51.9,
+   "type": "alarm_blip"
+  },
+  {
+   "t": 54.0,
+   "type": "beep_low"
+  },
+  {
+   "t": 54.7,
+   "type": "beep_low"
+  },
+  {
+   "t": 55.4,
+   "type": "beep_low"
+  },
+  {
+   "t": 57.0,
+   "type": "notify"
+  },
+  {
+   "t": 57.5,
+   "type": "star_drop"
+  },
+  {
+   "t": 58.3,
+   "type": "stamp"
+  },
+  {
+   "t": 60.0,
+   "type": "whoosh",
+   "gain": 0.5
+  },
+  {
+   "t": 60.0,
+   "type": "warm_pad",
+   "dur": 6.0
+  },
+  {
+   "t": 60.5,
+   "type": "pop",
+   "gain": 0.6
+  },
+  {
+   "t": 62.3,
+   "type": "pop",
+   "gain": 0.6
+  },
+  {
+   "t": 66.0,
+   "type": "glitch",
+   "dur": 0.6
+  },
+  {
+   "t": 66.3,
+   "type": "blip"
+  },
+  {
+   "t": 67.0,
+   "type": "notify"
+  },
+  {
+   "t": 68.5,
+   "type": "glitch",
+   "dur": 0.35
+  },
+  {
+   "t": 68.5,
+   "type": "alarm_blip"
+  },
+  {
+   "t": 70.6,
+   "type": "glitch",
+   "dur": 0.4
+  },
+  {
+   "t": 71.0,
+   "type": "drone_tension",
+   "dur": 13.0
+  },
+  {
+   "t": 71.4,
+   "type": "pop"
+  },
+  {
+   "t": 72.1,
+   "type": "pop"
+  },
+  {
+   "t": 72.8,
+   "type": "pop"
+  },
+  {
+   "t": 74.0,
+   "type": "blip"
+  },
+  {
+   "t": 75.6,
+   "type": "pop"
+  },
+  {
+   "t": 77.0,
+   "type": "cash"
+  },
+  {
+   "t": 77.9,
+   "type": "paper"
+  },
+  {
+   "t": 82.0,
+   "type": "stamp"
+  },
+  {
+   "t": 84.0,
+   "type": "bike_ride",
+   "dur": 6.5
+  },
+  {
+   "t": 84.3,
+   "type": "blip"
+  },
+  {
+   "t": 85.0,
+   "type": "sizzle",
+   "dur": 3.0
+  },
+  {
+   "t": 86.0,
+   "type": "heartbeat",
+   "dur": 4.5
+  },
+  {
+   "t": 87.2,
+   "type": "reverse_swell",
+   "dur": 0.4
+  },
+  {
+   "t": 87.6,
+   "type": "stinger"
+  },
+  {
+   "t": 88.8,
+   "type": "stamp"
+  },
+  {
+   "t": 90.5,
+   "type": "whoosh"
+  },
+  {
+   "t": 91.0,
+   "type": "deep_hit"
+  },
+  {
+   "t": 92.4,
+   "type": "pop",
+   "gain": 0.6
+  },
+  {
+   "t": 95.5,
+   "type": "blip"
+  },
+  {
+   "t": 96.2,
+   "type": "pop"
+  },
+  {
+   "t": 96.6,
+   "type": "pop",
+   "pitch": 0.85
+  },
+  {
+   "t": 98.0,
+   "type": "pop"
+  },
+  {
+   "t": 101.0,
+   "type": "neon_on"
+  },
+  {
+   "t": 101.0,
+   "type": "deep_hit",
+   "gain": 0.6
+  }
+ ],
+ "rain": [
+  [
+   0,
+   0.9
+  ],
+  [
+   6.5,
+   0.8
+  ],
+  [
+   11.5,
+   0.15
+  ],
+  [
+   14.5,
+   0.0
+  ],
+  [
+   21.0,
+   0.9
+  ],
+  [
+   26.5,
+   0.25
+  ],
+  [
+   33.0,
+   1.0
+  ],
+  [
+   37.0,
+   0.35
+  ],
+  [
+   44.6,
+   0.8
+  ],
+  [
+   47.5,
+   0.7
+  ],
+  [
+   60.0,
+   0.4
+  ],
+  [
+   66.0,
+   0.5
+  ],
+  [
+   71.0,
+   0.8
+  ],
+  [
+   84.0,
+   1.0
+  ],
+  [
+   90.5,
+   0.7
+  ],
+  [
+   101.0,
+   0.3
+  ],
+  [
+   104.0,
+   0.0
+  ]
+ ]
+}
